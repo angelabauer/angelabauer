@@ -16,7 +16,7 @@
 	 flex-direction: column;
 	 justify-content: center;
 	 align-items: center;
-	 background: linear-gradient(rgba(10, 10, 10, .6), rgba(0, 0, 0, .9)), repeating-linear-gradient(0, transparent, transparent 2px, black 3px, black 3px), url(assets/images/bg.jpg);
+	 background: linear-gradient(rgba(10, 10, 10, .6), rgba(0, 0, 0, .9)), repeating-linear-gradient(0, transparent, transparent 2px, black 3px, black 3px), url(../images/bg.jpg);
 	 background-size: cover;
 	 background-position: center;
 	 z-index: 1;
