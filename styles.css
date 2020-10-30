@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900");
  html, body, h1 {
 	 padding: 0;
 	 margin: 0;
@@ -15,7 +15,7 @@
 	 flex-direction: column;
 	 justify-content: center;
 	 align-items: center;
-	 background: linear-gradient(rgba(10, 10, 10, .6), rgba(0, 0, 0, .9)), repeating-linear-gradient(0, transparent, transparent 2px, black 3px, black 3px), url('https://cdn.fs.teachablecdn.com/xpF6251Qt6zZ6mkidk22');
+	 background: linear-gradient(rgba(10, 10, 10, .6), rgba(0, 0, 0, .9)), repeating-linear-gradient(0, transparent, transparent 2px, black 3px, black 3px), url(assets/images/bg.jpg);
 	 background-size: cover;
 	 background-position: center;
 	 z-index: 1;
@@ -24,7 +24,8 @@
 	 text-align: center;
 }
  .sub {
-	 font-family: "helvetica", sans-seri f;
+	 font-family: "Raleway", sans-serif;
+	 font-weight: 500;
 	 color: #64dcdc;
 	 letter-spacing: 1em;
 }
@@ -265,4 +266,36 @@
 		 transform: skew(1deg);
 	}
 }
- 
+
+section {
+    font-family: "Raleway", sans-serif;
+}
+
+.main-button-slider {
+    display: block;
+    position: relative;
+    margin: 100px;
+}
+
+.icon {
+     background-image: url(assets/images/icon.png);
+     background-size: 100%;
+     }
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+a.cta-button {
+text-align: center;
+    margin-top: -100px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom:30px;
+}
+
+.copyright {
+    font-family: "Raleway", sans-serif;
+    text-transform: none !important;
+}
