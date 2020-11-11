@@ -290,12 +290,14 @@ img {
 
 a.cta-button {
 text-align: center;
-    margin-top: -100px;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-top: -4%;
+    margin-left: 20%;
+    margin-right: 20%;
     margin-bottom:30px;
 }
-
+.video {
+    text-align: center;
+}
 .copyright {
     font-family: "Raleway", sans-serif;
     text-transform: none !important;
