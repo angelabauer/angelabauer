@@ -295,8 +295,26 @@ text-align: center;
     margin-right: 20%;
     margin-bottom:30px;
 }
-.video {
+.video-container {
+
     text-align: center;
+    overflow: hidden;
+    position: relative;
+    width:100%;
+}
+
+.video-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 .copyright {
     font-family: "Raleway", sans-serif;
