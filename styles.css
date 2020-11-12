@@ -295,6 +295,12 @@ text-align: center;
     margin-right: 20%;
     margin-bottom:30px;
 }
+
+.brand {
+position: absolute;
+top: 20px;
+right: 20px;
+}
 .video-container {
 
     text-align: center;
