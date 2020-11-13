@@ -305,8 +305,9 @@ body {
 }
 
 a.main-button-slider {
+position: relative;
     font-family: "Raleway", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1rem;
   border-radius: 20px;
   padding: 12px 20px;
   background-color: #FF9170;
@@ -723,7 +724,7 @@ welcome
   }
   .welcome-area .header-text h1 {
     font-weight: 600;
-    font-size: 24px !important;
+    font-size: 20px !important;
     line-height: 30px !important;
     margin-bottom: 30px !important;
   }

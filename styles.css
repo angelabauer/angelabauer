@@ -21,8 +21,8 @@
 	 z-index: 1;
 }
  #wrapper {
- margin-top: 4rem;
- margin-bottom: 4rem;
+     margin-top: 8rem;
+     margin-bottom: 8rem;
 	 text-align: center;
 }
  .sub {
@@ -34,7 +34,7 @@
  .glitch {
 	 position: relative;
 	 color: white;
-	 font-size: 4em;
+	 font-size: 3.25em;
 	 letter-spacing: 0.5em;
 	 animation: glitch-skew 1s infinite linear alternate-reverse;
 }
@@ -273,11 +273,6 @@ section {
     font-family: "Raleway", sans-serif;
 }
 
-.main-button-slider {
-    display: block;
-    position: relative;
-    margin: 100px;
-}
 
 .icon {
      background-image: url(assets/images/icon.png);
@@ -302,12 +297,10 @@ top: 20px;
 right: 20px;
 }
 .video-container {
-
     text-align: center;
     overflow: hidden;
     position: relative;
-    width: 75%;
-    margin: 10% auto 0;
+    margin: 0 auto 0;
 }
 
 .video-container::after {
