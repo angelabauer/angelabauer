@@ -306,13 +306,13 @@ body {
 
 a.main-button-slider {
     font-family: "Raleway", sans-serif;
-  font-size: 13px;
+  font-size: 2rem;
   border-radius: 20px;
   padding: 12px 20px;
   background-color: #FF9170;
   text-transform: uppercase;
   color: #fff;
-  letter-spacing: 0.25px;
+  letter-spacing: 1px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -814,6 +814,7 @@ features
   padding-bottom: 0px;
   padding-top: 30px;
   margin-top: -120px;
+  margin-bottom: -120px;
   z-index: 9;
 }
 
@@ -986,7 +987,7 @@ parallax & home seperator
 }
 
 .counter .content .count-item {
-  height: 340px;
+  height: 250px;
   position: relative;
   float: left;
   width: 100%;

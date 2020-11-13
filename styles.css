@@ -8,7 +8,6 @@
 }
  #app {
 	 background: #0a0a0a;
-	 height: 100vh;
 	 width: 100%;
 	 margin: 0;
 	 padding: 0;
@@ -22,6 +21,8 @@
 	 z-index: 1;
 }
  #wrapper {
+ margin-top: 4rem;
+ margin-bottom: 4rem;
 	 text-align: center;
 }
  .sub {
@@ -289,11 +290,10 @@ img {
 }
 
 a.cta-button {
-text-align: center;
-    margin-top: -4%;
+    text-align: center;
     margin-left: 20%;
     margin-right: 20%;
-    margin-bottom:30px;
+    margin-bottom:10%;
 }
 
 .brand {
@@ -306,7 +306,8 @@ right: 20px;
     text-align: center;
     overflow: hidden;
     position: relative;
-    width:100%;
+    width: 75%;
+    margin: 10% auto 0;
 }
 
 .video-container::after {
@@ -326,3 +327,4 @@ right: 20px;
     font-family: "Raleway", sans-serif;
     text-transform: none !important;
 }
+nt(127deg, #a759d1 0%, #8261ee 91%);}
