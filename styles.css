@@ -4,7 +4,7 @@
 	 padding: 0;
 	 margin: 0;
 	 font-family: 'Orbitron', sans-serif;
-	 font-weight: 900;
+	 font-weight: 990;
 }
  #app {
 	 background: #0a0a0a;
@@ -18,7 +18,7 @@
 	 background: linear-gradient(rgba(10, 10, 10, .6), rgba(0, 0, 0, .9)), repeating-linear-gradient(0, transparent, transparent 2px, black 3px, black 3px), url(assets/images/background.jpg);
 	 background-size: cover;
 	 background-position: center;
-	 z-index: 1;
+	 z-index: 2;
 }
  #wrapper {
      margin-top: 8rem;
@@ -35,7 +35,7 @@
 	 position: relative;
 	 color: white;
 	 font-size: 3.25em;
-	 letter-spacing: 0.5em;
+	 letter-spacing: 1.5em;
 	 animation: glitch-skew 1s infinite linear alternate-reverse;
 }
  .glitch::before {
